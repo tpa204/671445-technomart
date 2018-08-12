@@ -1,9 +1,151 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-  </head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Техномарт</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
  <body>
+<header class="main-page">
+<div class="container">
+<a href="#"class="logo-uppanel">Техномарт</a>
+<form method="get" class="uppanel-search">
+<input type="submit" name="search" value="" placeholder="Поиск">
+<label for="search" class="visually-hidden">Поиск по сайту</label><form>
+         <a href="#" class="uppanel-bookmarks">Закладки:0</a>
+         <a href="#" class="uppanel-busket">Корзина:0</a>
+         <a href="#" class="uppanel-order">Оформить заказ</a>
+</div>
+<div class="midpanel">
+<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+<div>
+    <a href="tel:+78125550555">+7(812)555-05-55</a>
+    <p>Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+</div>
+<div class="user-block">
+    <a class="button" href="#">Войти</a>
+    <a class="button" href="#">Регистрация</a>
+</div>
+</div>
+<nav class="main-navigation">
+<ul>
+    <li>Главная</li>
+    <li>Компания</li>
+    <li>Каталог</li>
+    <li>Новости</li>
+    <li>Спецпредложения</li>
+    <li>Доставка</li>
+    <li>Контакты</li>
+</ul>
+</nav>
+     </header>
+<main>
+<section>
+    <div class="promo-tag orange">
+        <h3>Материалы</h3>
+        <a href="#">На любой вкус</a>
+    </div>
+    <div class="promo-tag blue">
+        <h3>Инструмент</h3>
+        <a href="#">На все случаи</a>
+    </div>
+    <div class="promo-tag purple">
+        <h3>Техника</h3>
+        <a href="#">Для стройки</a>
+    </div>
+    <div class="slider">
+        <h3>Перфораторы</h3>
+        <p>Настоящие мужские игрушки</p>
+        <button type="button" name="back"></button>
+        <button type="button" name="forward"></button>
+        <a href="catalog.html">Открыть каталог</a>
+
+    </div>
+    <div class="promo-tag green">
+        <h3>Скидки 50%</h3>
+        <a href="#">На 350 товаров</a>
+    </div>
+    <div class="promo-tag orange">
+        <h3>Доставка</h3>
+        <a href="#">Бесплатно</a>
+    </div>
+</section>
+<section class="popular-goods">
+    <div>
+        <h3>Популярные товары:</h3>
+        <a href="#">Все популярные товары</a>
+    </div>
+<ul>
+    <li>
+        <div class="popular-item">
+            <img src="" alt="Перфоратор Bosch BFG 9000">
+            <p>Перфоратор Bosch BFG 9000</p>
+            <span class="old-price">32500 Р.</span>
+            <span class="new-price">25500 Р.</span>
+        </div>
+    </li>
+    <li>
+        <div class="popular-item">
+            <img src="" alt="Перфоратор Bosch BFG 3000">
+            <p>Перфоратор Bosch BFG 3000</p>
+            <span class="old-price">22500 Р.</span>
+            <span class="new-price">15500 Р.</span>
+        </div>
+    </li>
+    <li>
+        <div class="popular-item">
+            <img src="" alt="Перфоратор Bosch BFG 6000">
+            <p>Перфоратор Bosch BFG 6000</p>
+            <span class="old-price">30500 Р.</span>
+            <span class="new-price">25500 Р.</span>
+        </div>
+    </li>
+    <li>
+        <div class="popular-item">
+            <img src="" alt="Перфоратор Bosch BFG 2000">
+            <p>Перфоратор Bosch BFG 2000</p>
+
+            <span class="new-price">12500 Р.</span>
+        </div>
+    </li>
+</ul>
+</section>
+<section class="popular-producers">
+    <div>
+        <h3>Популярные производители:</h3>
+        <a href="#">Все производители</a>
+    </div>
+<ul>
+    <li><a href=""><img src="" alt="Bosch"></a></li>
+    <li><a href=""><img src="" alt="Makita"></a></li>
+    <li><a href=""><img src="" alt="DeWalt"></a></li>
+    <li><a href=""><img src="" alt="Interskol"></a></li>
+    <li><a href=""><img src="" alt="Hitachi"></a></li>
+    <li><a href=""><img src="" alt="Lg"></a></li>
+    <li><a href=""><img src="" alt="Aeg"></a></li>
+    <li><a href=""><img src="" alt="Metabo"></a></li>
+</ul>
+</section>
+<section class="services">
+    <h2>Сервисы</h2>
+    <p>Хороший интернет-магазин отличается не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+    <div class="left-column"><ul>
+        <li><button>
+                <h3>Доставка</h3>
+            </button></li>
+        <li><button>
+                <h3>Гарантия</h3>
+            </button></li>
+        <li><button>
+                <h3>Кредит</h3>
+            </button></li>
+    </ul>
+</div>
+
+
+
+</section>
+</main>
  </body>
 </html>
