@@ -12,13 +12,13 @@
   <header class="main-page">
     <div class="container">
       <a href="#" class="logo-header">Техномарт</a>
-      <form method="get" class="uppanel-search">
+      <form method="get" class="top-panel-search">
         <input type="submit" name="search" value="" placeholder="Поиск">
         <label for="search" class="visually-hidden">Поиск по сайту</label>
       </form>
-      <a href="#" class="uppanel-bookmarks header-uppanel">Закладки:0</a>
-      <a href="#" class="uppanel-busket header-uppanel">Корзина:10</a>
-      <a href="#" class="uppanel-order header-uppanel">Оформить заказ</a>
+      <a href="#" class="top-panel-bookmarks header-top-panel">Закладки:0</a>
+      <a href="#" class="top-panel-busket header-top-panel">Корзина:10</a>
+      <a href="#" class="top-panel-order header-top-panel">Оформить заказ</a>
     </div>
     <div class="midpanel">
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
@@ -57,10 +57,11 @@
     <div class="">
       <h2>Перфораторы</h2>
     </div>
-    <section>
-      <form action="/show" method="post">
-        <h2 class="visually-hidden">Перфораторы</h2>
-        <div class="left-column">
+    <div class="catalog-content">
+      <section class="left-column">
+        <form action="/show" method="post">
+          <h2 class="visually-hidden">Перфораторы</h2>
+
           <span class="head-table">Фильтр:</span>
           <label for="Price">Цена:</label>
           <input type="range" name="Price" value="">
@@ -102,8 +103,8 @@
             <label for="charge">Сетевые</label>
           </p>
           <input type="submit" name="Show" value="Показать" class="btn">
-      </form>
-      </div>
+        </form>
+      </section>
       <div class="right-column">
         <div class="sorting-line">
           <span class="head-table">Сортировка:</span>
@@ -221,8 +222,8 @@
         </div>
 
       </div>
-      </div>
-    </section>
+    </div>
+
     <div class="mini-article">
       <p>Пара слов о перфораторах</p>
       <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта
