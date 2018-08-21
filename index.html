@@ -6,6 +6,8 @@
   <title>HTML Academy: Техномарт</title>
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -13,7 +15,7 @@
     <div class="container">
       <a href="#" class="logo-header">Техномарт</a>
       <form method="get" class="top-panel-search">
-        <input type="search" name="search" value="" placeholder="Поиск">
+        <input type="search" id="search" name="search" value="" placeholder="Поиск">
         <label for="search" class="visually-hidden">Поиск по сайту</label>
       </form>
       <a href="#" class="header-top-panel top-panel-bookmarks">Закладки:0</a>
@@ -47,12 +49,12 @@
     <section class="promo">
       <h2 class="visually-hidden">Промо-акции</h2>
       <div class="promo-left-column">
-        <div class="promo-tag-item orange tag-new">
-          <h3>Материалы</h3>
+        <div class="promo-tag-orange tag-new">
+          <h3 class="promo-title">Материалы</h3>
           <a href="#" class="btn-promo">На любой вкус</a>
         </div>
-        <div class="promo-tag-item blue">
-          <h3>Инструмент</h3>
+        <div class="promo-tag-blue">
+          <h3 class="promo-title">Инструмент</h3>
           <a href="#" class="btn-promo">На все случаи</a>
         </div>
         <input type="radio" name="" id="btn-1" checked>
@@ -72,20 +74,19 @@
             <label for="btn-1"></label>
             <label for="btn-2"></label>
           </div>
-
         </div>
       </div>
       <div class="promo-right-column">
-        <div class="promo-tag-item purple">
-          <h3>Техника</h3>
+        <div class="promo-tag-purple">
+          <h3 class="promo-title">Техника</h3>
           <a href="#" class="btn-promo">Для стройки</a>
         </div>
-        <div class="promo-tag-item green">
-          <h3>Скидки 50%</h3>
+        <div class="promo-tag-green">
+          <h3 class="promo-title">Скидки 50%</h3>
           <a href="#" class="btn-promo">На 350 товаров</a>
         </div>
-        <div class="promo-tag-item orange">
-          <h3>Доставка</h3>
+        <div class="promo-tag-orange">
+          <h3 class="promo-title">Доставка</h3>
           <a href="#" class="btn-promo">Бесплатно</a>
         </div>
       </div>
@@ -98,7 +99,7 @@
       <ul class="popular-goods-list">
         <li class="popular-goods-items">
           <div class="popular-item">
-            <img src="" alt="Перфоратор Bosch BFG 9000">
+            <img src="img/catalog-item-bfg-9000.jpg" width="218" height="169" alt="Перфоратор Bosch BFG 9000">
             <div class="hidden-btn">
               <button class="btn btn-to-buy">Купить</button>
               <button class="btn btn-to-bookmarks">В закладки</button>
@@ -110,7 +111,7 @@
         </li>
         <li class="popular-goods-items">
           <div class="popular-item">
-            <img src="" alt="Перфоратор Bosch BFG 3000">
+            <img src="img/catalog-item-bfg-3000.jpg" width="218" height="169" alt="Перфоратор Bosch BFG 3000">
             <div class="popular-item-action">
               <button class="to-buy">Купить</button>
               <button class="to-bookmarks">В закладки</button></div>
@@ -121,7 +122,7 @@
         </li>
         <li class="popular-goods-items">
           <div class="popular-item">
-            <img src="" alt="Перфоратор Bosch BFG 6000">
+            <img src="img/catalog-item-bfg-6000.jpg" width="218" height="169" alt="Перфоратор Bosch BFG 6000">
             <div class="hidden-btn">
               <button class="to-buy">Купить</button>
               <button class="to-bookmarks">В закладки</button></div>
@@ -132,7 +133,7 @@
         </li>
         <li class="popular-goods-items">
           <div class="popular-item">
-            <img src="" alt="Перфоратор Bosch BFG 2000">
+            <img src="img/catalog-item-bfg-2000.jpg" width="218" height="169" alt="Перфоратор Bosch BFG 2000">
             <div class="hidden-btn">
               <button class="to-buy">Купить</button>
               <button class="to-bookmarks">В закладки</button></div>
@@ -148,14 +149,14 @@
         <a class="btn-red" href="#">Все производители</a>
       </div>
       <ul class="popular-producers-list">
-        <li class="popular-producers-item"><a href=""><img src="" alt="Bosch"></a></li>
-        <li class="popular-producers-item"><a href=""><img src="" alt="Makita"></a></li>
-        <li class="popular-producers-item"><a href=""><img src="" alt="DeWalt"></a></li>
-        <li class="popular-producers-item"><a href=""><img src="" alt="Interskol"></a></li>
-        <li class="popular-producers-item"><a href=""><img src="" alt="Hitachi"></a></li>
-        <li class="popular-producers-item"><a href=""><img src="" alt="Lg"></a></li>
-        <li class="popular-producers-item"><a href=""><img src="" alt="Aeg"></a></li>
-        <li class="popular-producers-item"><a href=""><img src="" alt="Metabo"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-1.jpg" width="218" height="143" alt="Bosch"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-2.jpg" width="218" height="143" alt="Makita"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-3.jpg" width="218" height="143" alt="DeWalt"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-4.jpg" width="218" height="143" alt="Interskol"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-5.jpg" width="218" height="143" alt="Hitachi"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-6.jpg" width="218" height="143" alt="Lg"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-7.jpg" width="218" height="143" alt="Aeg"></a></li>
+        <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-8.jpg" width="218" height="143" alt="Metabo"></a></li>
       </ul>
     </section>
     <section class="services">
@@ -199,7 +200,7 @@
       <section class="contacs">
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в офис:</p>
-        <a href=""><img src="" alt="Small map"></a>
+        <a href=""><img src="img/company-contacts-map.jpg" alt="Small map"></a>
         <a href="about.html" class="btn-contacts">Заблудились? Напишите нам!</a>
       </section>
     </div>
@@ -208,7 +209,7 @@
     <section class="footer-address">
       <h2 class="visually-hidden">Компания Техномарт</h2>
       <a href="#" class="logo-footer">Техномарт</a>
-      <p>Санкт-Петербург, ул. Б. Конюшенная, д.19/8
+      <p>Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>
         <a href="tel:+78125550555">+7(812)555-05-55</a></p>
     </section>
     <section class="footer-top-panel">
@@ -225,6 +226,18 @@
         <li><a href="">Инструмент</a></li>
         <li><a href="">Спецпредложения</a></li>
       </ul>
+    </section>
+    <section class="write-to-us">
+      <form class="" action="https://technomart.ru." method="post">
+        <span class="close-modal"></span>
+        <label for="name">Ваше имя</label>
+        <input type="text" name="name" id="name" placeholder="Имя фамилия">
+        <label for="email">Ваш e-mail</label>
+        <input type="email" name="email" id="email" placeholder="email@example.ru">
+        <label for="message">Текст письма</label>
+        <textarea name="message" rows="4" cols="80">В свободной форме</textarea>
+        <input type="submit" value="Отправить">
+      </form>
     </section>
     <section class="footer-down-panel">
       <div class="footer-content">
@@ -243,5 +256,4 @@
     </section>
   </footer>
 </body>
-
 </html>
