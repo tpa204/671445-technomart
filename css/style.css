@@ -1,3 +1,59 @@
 /* <img src="img\offer-slider-perforator.jpg" width="620" height="266" alt="Фото рабочего с перфоратором">
 <img src="img\offer-slider-drill.jpg" width="620" height="266" alt="Фото рабочего с дрелью">
  */
+ body {
+margin: 0;
+padding: 0;
+font-family: "PT sans",sans-serif;
+font-size: 13px;
+line-height:17px;
+color:#000000;
+background-color:#ffffff;
+text-transform:uppercase;
+
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+.main-page {
+width: 100%;
+background-color: #293449;
+}
+.container {
+  min-height: 70px;
+display: flex;
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.container a {
+font-family: 'Cuprum', sans-serif;
+color: #ffffff;
+font-size: 17px;
+line-height: 18px;
+}
+.midpanel {
+  background-color:#f3f7f9;
+  display: flex;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: #293449;
+  margin-bottom: 40px;
+}
+.navigation-list a {
+margin: 0;
+padding: 0;
+  color: #ffffff;
+}
+.header-backg {
+  background-color: #f3f7f9;
+  width: 100%;
+}
