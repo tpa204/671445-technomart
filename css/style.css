@@ -81,29 +81,39 @@
 
  .promo-tag-orange {
    background-color: #ffbf47;
-   background-image: url("img/icon-3.svg");
+   background-image:  url("../img/icon-1.svg");
+   background-repeat: no-repeat;
+   background-position: 80% 50%;
  }
 
  .promo-tag-blue {
    background-color: #3bbce3;
-   background-image: url("img/icon-3.svg");
+   background-image:  url("../img/icon-2.svg");
+   background-repeat: no-repeat;
+   background-position: 80% 50%;
  }
 
  .promo-tag-purple {
    background-color: #dc91d8;
+   background-image:  url("../img/icon-3.svg");
+   background-repeat: no-repeat;
+   background-position: 80% 50%;
  }
 
  .promo-tag-green {
    background-color: #8ed78f;
+   background-image:  url("../img/icon-4.svg");
+   background-repeat: no-repeat;
+   background-position: 80% 50%;
  }
 
  #slide1 {
-   background-image: url("img/offer-slider-perforator.jpg");
+   background-image: url("../img/offer-slider-perforator.jpg");
    background-size: 620px 266px;
  }
 
  #slide2 {
-   background-image: url("img/offer-slider-drill.jpg");
+   background-image: url("../img/offer-slider-drill.jpg");
    background-size: 620px 266px;
  }
 
