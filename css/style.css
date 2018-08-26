@@ -1,182 +1,209 @@
  body {
-margin: 0;
-padding: 0;
-font-family: "PT sans",sans-serif;
-font-size: 13px;
-line-height:17px;
-color:#000000;
-background-color:#ffffff;
-text-transform:uppercase;
+   margin: 0;
+   padding: 0;
+   font-family: "PT sans", sans-serif;
+   font-size: 13px;
+   line-height: 17px;
+   color: #000000;
+   background-color: #ffffff;
+   text-transform: uppercase;
+ }
 
-}
-h2 {
-font-family: 'Cuprum', sans-serif;
-  font-size: 30px;
-  line-height: 30px;
-}
-a {
-  text-decoration: none;
-}
-.visually-hidden {
-  visibility: hidden;
-}
-.main-page {
-  width: 100%;
-  background-color: #293449;
-}
+ h2 {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 30px;
+   line-height: 30px;
+ }
 
-.container {
-display: flex;
-  width: 940px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-.container a {
-font-family: 'Cuprum', sans-serif;
-color: #ffffff;
-font-size: 17px;
-line-height: 18px;
-}
-.midpanel {
-  background-color:#f3f7f9;
-  display: flex;
-}
-.navigation-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  background-color: #293449;
-  margin-bottom: 40px;
-}
-.navigation-list a {
-margin: 0;
-padding: 0;
-  color: #ffffff;
-}
-.header-backg {
+ a {
+   text-decoration: none;
+ }
 
-  background-color: #f3f7f9;
-  width: 100%;
-}
-.midpanel a{
-  background: :#ffffff;
-  color: #000000;
-}
-.promo-tag {
-  width:300px;
-  height: 123px;
-  margin-right: 20px;
+ .visually-hidden {
+   visibility: hidden;
+ }
 
-  color: #ffffff;
-}
-.promo-tag-orange {
-background-color: #ffbf47;
-  background-image:url("img/icon-3.svg");
-}
-.promo-tag-blue {
-background-color: #3bbce3;
-  background-image:url("img/icon-3.svg");
-}
-.promo-tag-purple {
-background-color: #dc91d8;
-}
-.promo-tag-green{
-  background-color: #8ed78f;
-}
-#slide1 {
-  background-image: url("img/offer-slider-perforator.jpg");
-  background-size:620px 266px;
-}
-#slide2 {
-  background-image: url("img/offer-slider-drill.jpg");
-  background-size:620px 266px;
-}
-.popular-goods-content,
-.popular-producers div{
-  background-color: #f9f5f0;
-  font-family: 'Cuprum', sans-serif;
-  font-size: 30px;
-  line-height: 30px;
-  display: flex;
-  justify-content:space-between;
-}
-.popular-goods-list {
-  list-style: none;
-}
-.popular-item {
-  width: 220px;
-  height: 320px;
-  border: 2px solid #eaeaea;
-}
-.popular-goods-content a,
-.popular-producers a {
-font-family: 'Cuprum', sans-serif;
-font-size: 14px;
-line-height: 18px;
-color: inherit; //временно
-}
-.popular-goods
- {
-  font-family: "PT sans",sans-serif;
-  font-size: 18px;
-  line-height: 20px;
-}
-.popular-producers-list {
-list-style: none;
-  display: flex;
-  justify-content:space-between;
-  list-style: none;
-  flex-wrap: wrap;
-}
-.popular-producers-item {
-  width: 220px;
-  height: 146px;
-    border: 2px solid #eaeaea;
-}
-.services {
-  background-color: #f4f7f9;
-  }
-.services .container {
-  display: flex;
-  justify-content: space-between;
-}
-.services ul,
-.cargo-list {
-  list-style: none;
-}
-.services h3 {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 36px;
-  line-height: 36px;
-}
-.about-where {
-  display: flex;
-  justify-content: space-between;
-}
-footer {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  color: #ffffff;
-  background-color:#32425c ;
-}
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.footer-category-menu a {
-  color:#ffd180;
-}
-.footer-down-panel {
-  background-color: #293449;
+ .main-page {
+   width: 100%;
+   background-color: #293449;
+ }
 
-}
-.footer-content{
-display: flex;  
-}
-.footer-down-panel a{
-  color:#ffd180;
-}
+ .container {
+   display: flex;
+   width: 940px;
+   padding: 0 10px;
+   margin: 0 auto;
+ }
+
+ .container a {
+   font-family: 'Cuprum', sans-serif;
+   color: #ffffff;
+   font-size: 17px;
+   line-height: 18px;
+ }
+
+ .midpanel {
+   background-color: #f3f7f9;
+   display: flex;
+ }
+
+ .navigation-list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   background-color: #293449;
+   margin-bottom: 40px;
+ }
+
+ .navigation-list a {
+   margin: 0;
+   padding: 0;
+   color: #ffffff;
+ }
+
+ .header-backg {
+   background-color: #f3f7f9;
+   width: 100%;
+ }
+
+ .midpanel a {
+   background: :#ffffff;
+   color: #000000;
+ }
+
+ .promo-tag {
+   width: 300px;
+   height: 123px;
+   margin-right: 20px;
+   color: #ffffff;
+ }
+
+ .promo-tag-orange {
+   background-color: #ffbf47;
+   background-image: url("img/icon-3.svg");
+ }
+
+ .promo-tag-blue {
+   background-color: #3bbce3;
+   background-image: url("img/icon-3.svg");
+ }
+
+ .promo-tag-purple {
+   background-color: #dc91d8;
+ }
+
+ .promo-tag-green {
+   background-color: #8ed78f;
+ }
+
+ #slide1 {
+   background-image: url("img/offer-slider-perforator.jpg");
+   background-size: 620px 266px;
+ }
+
+ #slide2 {
+   background-image: url("img/offer-slider-drill.jpg");
+   background-size: 620px 266px;
+ }
+
+ .popular-goods-content, .popular-producers div {
+   background-color: #f9f5f0;
+   font-family: 'Cuprum', sans-serif;
+   font-size: 30px;
+   line-height: 30px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .popular-goods-list {
+   list-style: none;
+ }
+
+ .popular-item {
+   width: 220px;
+   height: 320px;
+   border: 2px solid #eaeaea;
+ }
+
+ .popular-goods-content a, .popular-producers a {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 14px;
+   line-height: 18px;
+   color: inherit; //временно
+ }
+
+ .popular-goods {
+   font-family: "PT sans", sans-serif;
+   font-size: 18px;
+   line-height: 20px;
+ }
+
+ .popular-producers-list {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   flex-wrap: wrap;
+ }
+
+ .popular-producers-item {
+   width: 220px;
+   height: 146px;
+   border: 2px solid #eaeaea;
+ }
+
+ .services {
+   background-color: #f4f7f9;
+ }
+
+ .services .container {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .services ul, .cargo-list {
+   list-style: none;
+ }
+
+ .services h3 {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 36px;
+   line-height: 36px;
+ }
+
+ .about-where {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ footer {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 18px;
+   line-height: 24px;
+   color: #ffffff;
+   background-color: #32425c;
+ }
+
+ footer ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+ }
+
+ .footer-category-menu a {
+   color: #ffd180;
+ }
+
+ .footer-down-panel {
+   background-color: #293449;
+ }
+
+ .footer-content {
+   display: flex;
+ }
+
+ .footer-down-panel a {
+   color: #ffd180;
+ }
