@@ -23,8 +23,6 @@
       <a href="#" class="header-top-panel top-panel-order">Оформить заказ</a>
     </div>
     <div class="header-backg">
-
-
     <div class="midpanel container">
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <div>
@@ -50,19 +48,19 @@
     </div>
   </header>
   <main>
-    <section class="promo">
+    <section class="promo container">
       <h2 class="visually-hidden">Промо-акции</h2>
       <div class="promo-left-column">
-        <div class="promo-tag-orange tag-new">
+        <div class="promo-tag-orange tag-new promo-tag">
           <h3 class="promo-title">Материалы</h3>
           <a href="#" class="btn-promo">На любой вкус</a>
         </div>
-        <div class="promo-tag-blue">
+        <div class="promo-tag-blue promo-tag">
           <h3 class="promo-title">Инструмент</h3>
           <a href="#" class="btn-promo">На все случаи</a>
         </div>
-        <input type="radio" name="" id="btn-1" checked>
-        <input type="radio" name="" id="btn-2">
+        <input type="radio" name="promo-slider" id="btn-1" checked>
+        <input type="radio" name="promo-slider" id="btn-2">
         <div class="promo-slider">
           <div class="slider-promo" id="slide1">
             <h3 class="slide-title">Перфораторы</h3>
@@ -81,26 +79,26 @@
         </div>
       </div>
       <div class="promo-right-column">
-        <div class="promo-tag-purple">
+        <div class="promo-tag-purple promo-tag">
           <h3 class="promo-title">Техника</h3>
           <a href="#" class="btn-promo">Для стройки</a>
         </div>
-        <div class="promo-tag-green">
+        <div class="promo-tag-green promo-tag">
           <h3 class="promo-title">Скидки 50%</h3>
           <a href="#" class="btn-promo">На 350 товаров</a>
         </div>
-        <div class="promo-tag-orange">
+        <div class="promo-tag-orange promo-tag">
           <h3 class="promo-title">Доставка</h3>
           <a href="#" class="btn-promo">Бесплатно</a>
         </div>
       </div>
     </section>
     <section class="popular-goods">
-      <div class="popular-goods-content">
+      <div class="popular-goods-content container">
         <h2>Популярные товары:</h2>
         <a class="btn-red btn" href="#">Все популярные товары</a>
       </div>
-      <ul class="popular-goods-list">
+      <ul class="popular-goods-list container">
         <li class="popular-goods-items">
           <div class="popular-item">
             <img src="img/catalog-item-bfg-9000.jpg" width="218" height="169" alt="Перфоратор Bosch BFG 9000">
@@ -148,11 +146,11 @@
       </ul>
     </section>
     <section class="popular-producers">
-      <div>
+      <div class="container">
         <h2>Популярные производители:</h2>
         <a class="btn-red" href="#">Все производители</a>
       </div>
-      <ul class="popular-producers-list">
+      <ul class="popular-producers-list container">
         <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-1.jpg" width="218" height="143" alt="Bosch"></a></li>
         <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-2.jpg" width="218" height="143" alt="Makita"></a></li>
         <li class="popular-producers-item"><a href="#"><img src="img/brands-logo-3.jpg" width="218" height="143" alt="DeWalt"></a></li>
@@ -164,13 +162,14 @@
       </ul>
     </section>
     <section class="services">
+<div class="container">
       <h2>Сервисы</h2>
       <p>Хороший интернет-магазин отличается не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       <div class="left-column">
         <ul>
           <li><label class="slider2" for="slide3">Доставка</label></li>
           <li><label class="slider2" for="slide4">Гарантия</label></li>
-          <li><label class="slider2" for="slide">Кредит</label></li>
+          <li><label class="slider2" for="slide5">Кредит</label></li>
         </ul>
       </div>
       <div class="right-column">
@@ -187,17 +186,18 @@
           <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
         </div>
       </div>
+      </div>
     </section>
 
-    <div class="about-where">
+    <div class="about-where container">
       <section class="about-company">
         <h2>Компания "Техномарт"</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушным любителей сэкномить на гастарбайтерах. </p>
         <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
         <ul class="cargo-list">
-          <li class="cargo-company">Деловые линии</li>
-          <li class="cargo-company">Автотрейдинг</li>
-          <li class="cargo-company">ЖелДорЭкспедиция</li>
+          <li class="cargo-company">&#8212;Деловые линии</li>
+          <li class="cargo-company">&#8212;Автотрейдинг</li>
+          <li class="cargo-company">&#8212;ЖелДорЭкспедиция</li>
         </ul>
         <a class="btn-about-company" href="about.html">Подробнее о компании</a>
       </section>
@@ -210,6 +210,7 @@
     </div>
   </main>
   <footer>
+    <div class="container">
     <section class="footer-address">
       <h2 class="visually-hidden">Компания Техномарт</h2>
       <a href="#" class="logo-footer">Техномарт</a>
@@ -230,21 +231,10 @@
         <li><a href="">Инструмент</a></li>
         <li><a href="">Спецпредложения</a></li>
       </ul>
-    </section>
-    <section class="write-to-us">
-      <form class="" action="https://technomart.ru." method="post">
-        <span class="close-modal"></span>
-        <label for="name">Ваше имя</label>
-        <input type="text" name="name" id="name" placeholder="Имя фамилия">
-        <label for="email">Ваш e-mail</label>
-        <input type="email" name="email" id="email" placeholder="email@example.ru">
-        <label for="message">Текст письма</label>
-        <textarea id="message" name="message" rows="4" cols="80">В свободной форме</textarea>
-        <input type="submit" value="Отправить">
-      </form>
+      </div>
     </section>
     <section class="footer-down-panel">
-      <div class="footer-content">
+      <div class="footer-content container">
         <p>2010-2017 Компания "Техномарт" Все права защищены</p>
         <div class="footer-block  footer-social">
           <p class="visually-hidden">давайте дружить!</p>
@@ -259,6 +249,18 @@
       </div>
     </section>
   </footer>
+  <section class="write-to-us">
+    <form class="" action="https://technomart.ru." method="post">
+      <span class="close-modal"></span>
+      <label for="name">Ваше имя</label>
+      <input type="text" name="name" id="name" placeholder="Имя фамилия">
+      <label for="email">Ваш e-mail</label>
+      <input type="email" name="email" id="email" placeholder="email@example.ru">
+      <label for="message">Текст письма</label>
+      <textarea id="message" name="message" rows="4" cols="80">В свободной форме</textarea>
+      <input type="submit" value="Отправить">
+    </form>
+  </section>
 </body>
 
 </html>
