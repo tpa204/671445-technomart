@@ -35,7 +35,7 @@
    overflow: hidden;
  }
 
-.header-top-panel  {
+.header-top-panel a {
   font-family: 'Cuprum','Arial', sans-serif;
   color: #ffffff;
   font-size: 17px;
@@ -72,7 +72,8 @@ background-color:#ba2732 ;
 .top-panel-order:active{
   background-color: #518534;
 }
- .main-page {
+ .main-page,
+ .header-inner-page  {
    width: 100%;
    background-color: #293449;
  }
@@ -458,4 +459,107 @@ opacity: 0.5;
    font-weight: 400;
   line-height: 18px;
   color: #a9a9a9;
+}
+.client-name {
+  font-family: 'Cuprum',"Arial", sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+.user-block ul {
+  list-style: none;
+}
+.user-block  a{
+  font-family: 'Cuprum',"Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+.breadcrumbs  {
+  list-style: none;
+}
+.breadcrumbs a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+.inner-h1 {
+  font-size: 30px;
+  line-height: 30px;
+  color:#32425c;
+}
+.sorting-title {
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 13px;
+   font-weight: 400;
+  line-height: 18px;
+  color: #000000;
+}
+.inner-page h3,
+.brands-sorting-title,
+.charge  {
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 17px;
+   font-weight: bold;
+  line-height: 30px;
+  background-color:#ffffff;
+  color: #000000;
+}
+.about-sorted-items h2 {
+  color: #000000;
+}
+.pagination-list {
+  list-style: none;
+  display:flex;
+}
+.pagination-item a {
+
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 13px;
+   line-height: 18px;
+  background-color:#ffffff;
+  color: #000000;
+}
+.pagination-list .active-page {
+  color:#ffffff;
+  background-color: #ee3643;
+}
+.about-sorted-items p{
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 13px;
+   line-height: 24px;
+  background-color:#ffffff;
+  color: #000000;
+}
+.sorting-attribute label {
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 15px;
+   line-height: 20px;
+  background-color:#ffffff;
+  color: #000000;
+}
+fieldset {
+   border:0 none;
+}
+.sorting-list{
+  list-style: none;
+  display: flex;
+}
+.sorting-item a {
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 13px;
+   line-height: 18px;
+  background-color:#ffffff;
+  color: #000000;
+  opacity: 0.3;
+
+}
+
+  /* text-decoration: underline;
+  text-decoration-style:dotted;
+  text-decoration-color: #ee3643; */
+
+.active-sorted {
+
 }

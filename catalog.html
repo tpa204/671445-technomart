@@ -11,21 +11,22 @@
 </head>
 
 <body>
-  <header class="main-page">
-    <div class="container">
+  <header class="header-inner-page">
+    <div class="container header-top-panel">
       <a href="#" class="logo-header">Техномарт</a>
       <form method="get" class="top-panel-search">
-        <input type="submit" name="search" value="" placeholder="Поиск">
+        <input type="search" id="search" name="search" value="" placeholder="Поиск">
         <label for="search" class="visually-hidden">Поиск по сайту</label>
       </form>
       <a href="#" class="header-top-panel top-panel-bookmarks">Закладки:0</a>
       <a href="#" class="header-top-panel top-panel-busket">Корзина:10</a>
       <a href="#" class="header-top-panel top-panel-order">Оформить заказ</a>
     </div>
-    <div class="mid-panel">
-      <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+    <div class="header-backg">
+    <div class="midpanel container">
+      <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <div>
-        <a href="tel:+78125550555">+7(812)555-05-55</a>
+        <a class="telnumber"href="tel:+78125550555">+7(812)555-05-55</a>
         <p>Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
       </div>
       <div class="user-block">
@@ -33,12 +34,12 @@
           <p>Равшан Джамшутович</p>
         </div>
         <ul>
-          <li class="my-order"><a href="#">Мои Заказы</a></li>
+          <li class="my-order"><a href="#">Мои заказы</a></li>
           <li><a href="#">Личный кабинет</a></li>
         </ul>
       </div>
     </div>
-    <nav class="main-navigation">
+    <nav class="main-navigation container">
       <ul class="navigation-list">
         <li class="navigation-item"><a href="">Главная</a></li>
         <li class="navigation-item"><a href="">Компания</a></li>
@@ -49,6 +50,7 @@
         <li class="navigation-item"><a href="">Контакты</a></li>
       </ul>
     </nav>
+    </div>
   </header>
   <main class="inner-page">
     <ul class="breadcrumbs">
@@ -60,11 +62,11 @@
     <h1 class="inner-h1">Перфораторы</h1>
     </div>
     <div class="catalog-content">
-      <section class="left-column">
+      <section class="left-column-sorting">
         <form action="/show" method="post">
           <fieldset>
             <h2 class="sorting-title">Фильтр:</h2>
-            <label for="Price-min">Цена:</label>
+            <h3><label for="Price-min" class="price-range-title">Цена:</label></h3>
             <div class="price-range">
               <input type="number" id="Price-min" name="price-range" value="0">
               <span>--</span>
@@ -73,8 +75,8 @@
             </div>
           </fieldset>
           <hr>
-          <fieldset>
-            <h2 class="brands-sorting-title">Производители:</h2>
+          <fieldset class="sorting-attribute">
+            <h3 class="brands-sorting-title">Производители:</h3>
             <p>
               <input type="checkbox" id="Bosch" name="producers" value="">
               <label for="Bosch">Bosch</label>
@@ -97,7 +99,7 @@
             </p>
           </fieldset>
           <hr>
-          <fieldset>
+          <fieldset class="sorting-attribute">
             <h3 class="charge">Питание:</h3>
             <p>
               <input type="radio" id="charge" value="" name="charge">
@@ -111,11 +113,11 @@
           <input type="submit" name="Show" value="Показать" class="btn filter-btn">
         </form>
       </section>
-      <div class="right-column">
+      <div class="right-column-sorting">
         <div class="sorting-line">
-          <h2 class="sorting-list-title">Сортировка:</h2>
+          <h2 class="sorting-title">Сортировка:</h2>
           <ul class="sorting-list">
-            <li class="sort-item-price sorting-item"><a href="#">По цене</a></li>
+            <li class="sort-item-price sorting-item"><a href="#" class="active-sorted">По цене</a></li>
             <li class="sort-item-type sorting-item"><a href="">По типу</a></li>
             <li class="sort-item-fucntional sorting-item"><a href="#">По функционалу</a></li>
             <li class="sorting-item-up">
@@ -224,10 +226,10 @@
         </ul>
       </div>
       <ul class="pagination-list">
-        <li class="pagination-item active-page"><a href="">1</a></li>
-        <li class="pagination-item"><a href="#"></a>2</li>
-        <li class="pagination-item"><a href="#"></a>3</li>
-        <li class="pagination-item"><a href="#"></a>Следующая</li>
+        <li class="pagination-item"><a href="" class="active-page">1</a></li>
+        <li class="pagination-item"><a href="#">2</a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#">Следующая</a></li>
       </ul>
     </div>
     <section class="about-sorted-items">
