@@ -12,7 +12,7 @@
 
 <body>
   <header class="main-page">
-    <div class="container">
+    <div class="container header-top-panel">
       <a href="#" class="logo-header">Техномарт</a>
       <form method="get" class="top-panel-search">
         <input type="search" id="search" name="search" value="" placeholder="Поиск">
@@ -26,8 +26,8 @@
     <div class="midpanel container">
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <div>
-        <a class="telnumber"href="tel:+78125550555">+7(812)555-05-55</a>
-        <p>Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+        <a class="telnumber"href="tel:+78125550555">+7 (812) 555-05-55</a>
+        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
       </div>
       <div class="user-block">
         <a class="btn enter user-block-btn" href="#">Войти</a>
@@ -38,7 +38,7 @@
       <ul class="navigation-list">
         <li class="navigation-item"><a href="">Главная</a></li>
         <li class="navigation-item"><a href="">Компания</a></li>
-        <li class="navigation-item"><a href="">Каталог</a></li>
+        <li class="navigation-item"><a href="catalog.html">Каталог</a></li>
         <li class="navigation-item"><a href="">Новости</a></li>
         <li class="navigation-item"><a href="">Спецпредложения</a></li>
         <li class="navigation-item"><a href="">Доставка</a></li>
@@ -62,12 +62,12 @@
         <input type="radio" name="promo-slider" id="btn-1" checked>
         <input type="radio" name="promo-slider" id="btn-2">
         <div class="promo-slider">
-          <div class="slider-promo" id="slide1">
+          <div class="slider-promo slider1" id="slide1">
             <h3 class="slider-title">Перфораторы</h3>
             <p>Настоящие мужские игрушки</p>
             <a class="btn-red" href="catalog.html">Открыть каталог</a>
           </div>
-          <div class="slider-promo" id="slide2">
+          <div class="slider-promo slider2" id="slide2">
             <h3 class="slider-title">Дрели</h3>
             <p>Соседям на радость!</p>
             <a class="btn-red" href="catalog.html">Открыть каталог</a>
@@ -167,9 +167,9 @@
       <p>Хороший интернет-магазин отличается не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       <div class="left-column">
         <ul>
-          <li><label class="slider2" for="slide3">Доставка</label></li>
-          <li><label class="slider2" for="slide4">Гарантия</label></li>
-          <li><label class="slider2" for="slide5">Кредит</label></li>
+          <li><label class="slider3 slider3-active-label" for="slide3">Доставка</label></li>
+          <li><label class="slider3" for="slide4">Гарантия</label></li>
+          <li><label class="slider3" for="slide5">Кредит</label></li>
         </ul>
       </div>
       <div class="right-column">
@@ -209,13 +209,13 @@
       </section>
     </div>
   </main>
-  <footer>
+  <footer class="main-page-footer">
     <div class="container">
     <section class="footer-address">
       <h2 class="visually-hidden">Компания Техномарт</h2>
       <a href="#" class="logo-footer logo-header">Техномарт</a>
       <p>Санкт-Петербург, ул. Б. Конюшенная, д.19/8
-        <a href="tel:+78125550555">+7(812)555-05-55</a></p>
+        <a href="tel:+78125550555">+7 (812) 555-05-55</a></p>
     </section>
     <section class="footer-top-panel">
       <ul class="footer-menu">
@@ -244,7 +244,7 @@
         </div>
         <p class="footer-down-links">Обратная связь:
           <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
-        <p class="footer-down-links">Разработано:
+        <p class="footer-down-links">Разработано -
           <a href="htmlacademy.ru">htmlacademy.ru</a></p>
       </div>
     </section>
