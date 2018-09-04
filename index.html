@@ -16,14 +16,19 @@
       <a href="#" class="logo-header">Техномарт</a>
       <div class="header-top-wrap">
 
-      <form method="get" class="top-panel-search">
-        <input type="search" id="search" name="search" value="" placeholder="Поиск:">
-        <label for="search" class="visually-hidden">Поиск по сайту</label>
-      </form>
-      <a href="#" class="header-top-item top-panel-bookmarks">Закладки:0</a>
-      <a href="#" class="header-top-item top-panel-busket">Корзина:0</a>
-      <a href="#" class="header-top-item top-panel-order">Оформить заказ</a>
-    </div></div>
+        <form method="get" class="top-panel-search">
+          <input type="search" id="search" name="search" value="" placeholder="Поиск:">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+          <path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
+        </svg>
+          <label for="search" class="visually-hidden">Поиск по сайту</label>
+
+        </form>
+        <a href="#" class="header-top-item top-panel-bookmarks">Закладки:0</a>
+        <a href="#" class="header-top-item top-panel-busket">Корзина:0</a>
+        <a href="#" class="header-top-item top-panel-order">Оформить заказ</a>
+      </div>
+    </div>
     <div class="header-backg">
       <div class="midpanel container">
         <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
@@ -61,20 +66,26 @@
           <h3 class="promo-title">Инструмент</h3>
           <a href="#" class="btn-promo">На все случаи</a>
         </div>
-        <input type="radio" name="promo-slider" id="btn-1" checked>
-        <input type="radio" name="promo-slider" id="btn-2">
         <div class="promo-slider">
-          <div class="slider-promo slider1" id="slide1">
+          <input type="radio" name="promo-slider" id="btn-1" checked>
+          <input type="radio" name="promo-slider" id="btn-2">
+
+          <div class="slider1" id="slide1">
             <h3 class="slider-title">Перфораторы</h3>
             <p>Настоящие мужские игрушки</p>
             <a class="btn-red" href="catalog.html">Открыть каталог</a>
           </div>
-          <div class="slider-promo slider2" id="slide2">
+          <div class="slider2" id="slide2">
             <h3 class="slider-title">Дрели</h3>
             <p>Соседям на радость!</p>
             <a class="btn-red" href="catalog.html">Открыть каталог</a>
           </div>
+          <div class="promo-radio-btn">
+            <I class="radio-checked"></I>
+            <I></I>
+          </div>
           <div class="slider-controls">
+
             <label for="btn-1"></label>
             <label for="btn-2"></label>
           </div>
@@ -89,7 +100,7 @@
           <h3 class="promo-title">Скидки 50%</h3>
           <a href="#" class="btn-promo">На 350 товаров</a>
         </div>
-        <div class="promo-tag-orange promo-tag">
+        <div class="promo-tag-delivery promo-tag">
           <h3 class="promo-title">Доставка</h3>
           <a href="#" class="btn-promo">Бесплатно</a>
         </div>
