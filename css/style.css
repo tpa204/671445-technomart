@@ -211,7 +211,8 @@ a {
 .midpanel h1 {
   margin: 0;
   width: 235px;
-  padding: 0 45px;
+
+  padding: 0;
   text-align: justify;
   vertical-align: top;
   font-family: 'Cuprum', 'Arial', sans-serif;
