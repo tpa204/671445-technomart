@@ -487,7 +487,7 @@ a {
   flex-wrap: wrap;
   margin-bottom: 20px;
   margin-right: 20px;
-  flex-direction: row;
+
 }
 
 .promo-left-column div:nth-child(2) {
@@ -750,23 +750,69 @@ margin-bottom: 20px;
 .service-slider {
 display: flex;
 width: 940px;
-height: 600px;
-background-image: url('../img/column-delimiter.png');
-background-position: 71% -10%;
-background-repeat: no-repeat;
+min-height: 300px;
+flex-wrap: wrap;
 
+}
+.service-slider p:nth-of-type(1) {
+  display: block;
+  margin-right: 300px;
 }
 .service-slider .left-column{
+  position: relative;
   width: 300px;
-  margin: 20px;
+  display: block;
+
+}
+.service-slider .left-column::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 272px;
+  background-image: url('../img/column-delimiter.png');
+  right: 0;
+  top:0;
+  background-repeat: no-repeat;
+
 }
 .service-slider .right-column {
-  width: 720px;
+  width: 575px;
   margin-left: 60px;
+
+}
+.right-column .service-slide-item:nth-child(3),
+.right-column .service-slide-item:nth-child(2) {
+  display: none;
+}
+.right-column .delivery{
   background-image: url('../img/service-details-delivery-background.png');
   background-repeat: no-repeat;
-  background-position: 80% 30%;
+  background-position:center right;
+}
+.right-column .warranty{
+  background-image: url('../img/service-details-guarantee-background.png');
+  background-repeat: no-repeat;
+  background-position:100% 25px;
+}
+.right-column .credit{
+  background-image: url('../img/service-credit-background.png');
+  background-repeat: no-repeat;
 
+  background-position: 100% 10%;
+}
+.credit a {
+
+  padding:10px 45px;
+  width: 110px;
+  background-color: #ff5357;
+}
+
+.right-column p {
+  display: block;
+  /* width: 300px; */
+}
+.right-column .service-slide-item{
+  width: 100%;
 }
 .left-column label {
   font-family: 'Cuprum', 'Arial', sans-serif;
@@ -775,10 +821,11 @@ background-repeat: no-repeat;
   line-height: 30px;
   color: #fff;
   background-color: #32425c;
+  cursor: pointer;
 
 }
 
-.left-column label:hover {
+.left-column label:not(.slider3-active-label):hover {
   background-color: #293449;
 }
 
