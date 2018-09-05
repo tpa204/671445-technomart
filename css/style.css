@@ -184,9 +184,7 @@ a {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
@@ -316,6 +314,7 @@ a {
 
 .promo {
   margin-bottom: 55px;
+  display: flex;
 }
 
 .promo-title {
@@ -576,6 +575,8 @@ a {
 
 .popular-goods-list {
   list-style: none;
+  display: flex;
+
 }
 
 .h2-in-main {
@@ -598,6 +599,9 @@ a {
   text-align: center;
   border: 1px solid #eaeaea;
   font-size: 17px;
+}
+.popular-goods-list:nth-child(4n) {
+  margin-right: 0;
 
 }
 
@@ -739,7 +743,9 @@ margin-bottom: 20px;
 .services ul, .cargo-list {
   list-style: none;
 }
-
+.services-container {
+  flex-wrap: wrap;
+}
 .services h3 {
   font-family: 'Cuprum', sans-serif;
   font-size: 36px;
@@ -751,8 +757,7 @@ margin-bottom: 20px;
 display: flex;
 width: 940px;
 min-height: 300px;
-flex-wrap: wrap;
-
+flex-wrap:wrap;
 }
 .service-slider p:nth-of-type(1) {
   display: block;
@@ -776,29 +781,33 @@ flex-wrap: wrap;
 
 }
 .service-slider .right-column {
-  width: 575px;
+  width: 580px;
+
   margin-left: 60px;
 
 }
 .right-column .service-slide-item:nth-child(3),
-.right-column .service-slide-item:nth-child(2) {
+.right-column .service-slide-item:nth-child(1) {
   display: none;
 }
 .right-column .delivery{
   background-image: url('../img/service-details-delivery-background.png');
   background-repeat: no-repeat;
   background-position:center right;
+    min-height: 300px;
+
 }
 .right-column .warranty{
   background-image: url('../img/service-details-guarantee-background.png');
   background-repeat: no-repeat;
-  background-position:100% 25px;
+  background-position:center right;
+    min-height: 300px;
 }
 .right-column .credit{
   background-image: url('../img/service-credit-background.png');
   background-repeat: no-repeat;
-
-  background-position: 100% 10%;
+  min-height: 300px;
+  background-position::center right;
 }
 .credit a {
 
@@ -951,15 +960,75 @@ footer ul {
   font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 18px;
+display: block;
+
 }
 
-.write-to-us input[placeholder] {
+
+.write-to-us {
+display: flex;
+
+position: absolute;
+top: 120px;
+left: 50%;
+width: 620px;
+margin-left: -310px;
+min-height: 423px;
+border-top: 7px solid #ff5257;
+background-color: #ffffff;
+box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.75);
+padding: 50px 80px;
+z-index: 50;
+}
+.close-modal {
+position: absolute;
+top:10px;
+right: 9px;
+  width: 21px;
+  height: 21px;
+  font-size: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  background-image:url("../img/icon-close.svg");
+}
+
+/* .write-to-us input::-webkit-input-placeholder,
+ .write-to-us textarea::-webkit-input-placeholder{
+  padding: 20px;
+  } */
+.write-to-us input[type="text"],
+.write-to-us input[type="email"]{
+  width: 200px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  padding-right: 40px;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: 'PT sans', 'Arial', sans-serif;
+  color: #a9a9a9;
+  font-weight: 400;
+
+
+}
+.footer-write-us {
+  background-color: #f4f4f4;
+  width: 100%;
+  min-height: 100px;
+  
+}
+.write-to-us input[type="submit"]{
+  margin:10px 50px;
+  width: 100%;
+}
+/* .write-to-us input[placeholder] {
   font-family: 'PT sans', 'Arial', sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
   color: #a9a9a9;
-}
+} */
 
 .write-to-us textarea {
   font-family: 'PT sans', 'Arial', sans-serif;
@@ -967,6 +1036,9 @@ footer ul {
   font-weight: 400;
   line-height: 18px;
   color: #a9a9a9;
+  margin: 0;
+  padding: 0;
+  padding: 10px 15px;
 }
 
 .user-block .client-name {
