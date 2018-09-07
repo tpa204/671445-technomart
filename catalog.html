@@ -38,7 +38,7 @@
     </div>
     <div class="header-backg">
       <div class="midpanel container">
-        <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+        <p class="like-h1-main">Интернет-магазин строительных материалов и инструментов для ремонта</p>
         <div class="midpanel-contacts">
           <a class="telnumber" href="tel:+78125550555">+7 (812) 555-05-55</a>
           <p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
@@ -72,9 +72,9 @@
       </nav>
     </div>
   </header>
-  <main class="inner-page">
-    <ul class="breadcrumbs">
-      <li><a href="index.html" class="breadcrumbs-icon-home"></a></li>
+  <main class="inner-page container">
+    <ul class="breadcrumbs container">
+      <li><a href="index.html" class="breadcrumbs-icon-home"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12"><g fill="#C1C6CE"><path d="M3 8v4h4V8h2v4h4V8L8 3.516z"/><path d="M14.831 6.365L13 4.751V0h-2v2.987L8.332.635c-.02-.017-.043-.023-.064-.037a.465.465 0 0 0-.08-.047.551.551 0 0 0-.095-.024C8.062.521 8.032.515 8 .515c-.031 0-.061.006-.092.012a.46.46 0 0 0-.095.025c-.028.011-.053.029-.08.046-.021.014-.045.02-.064.037l-6.498 5.73a.501.501 0 0 0 .33.875.497.497 0 0 0 .331-.125L8 1.677l6.169 5.438a.501.501 0 0 0 .662-.75z"/></g></svg></a></li>
       <li><a href="catalog.html">Каталог</a></li>
       <li><a href="#">Инструмент</a></li>
       <li class="current"><a>Перфораторы</a></li>
@@ -87,7 +87,7 @@
         <form action="/show" method="post">
           <fieldset>
             <h2 class="sorting-title">Фильтр:</h2>
-            <h3><label for="Price-min" class="price-range-title">Цена:</label></h3>
+            <h3><label for="Price-min" class="price-range-title filter-title ">Цена:</label></h3>
             <div class="price-range">
               <input type="number" id="Price-min" name="price-range" value="0">
               <span>--</span>
@@ -97,7 +97,7 @@
           </fieldset>
           <hr>
           <fieldset class="sorting-attribute">
-            <h3 class="brands-sorting-title">Производители:</h3>
+            <h3 class="brands-sorting-title filter-title">Производители:</h3>
             <p>
               <input type="checkbox" id="Bosch" name="producers" value="" checked>
               <label for="Bosch">Bosch</label>
@@ -121,7 +121,7 @@
           </fieldset>
           <hr>
           <fieldset class="sorting-attribute">
-            <h3 class="charge">Питание:</h3>
+            <h3 class="charge filter-title">Питание:</h3>
             <p>
               <input type="radio" id="charge-1" value="" name="charge" checked>
               <label for="charge-1">Аккумуляторные</label>
@@ -137,7 +137,7 @@
       <div class="right-column-sorting">
         <div class="sorting-line">
           <h2 class="sorting-title">Сортировка:</h2>
-          <ul class="sorting-list">
+          <div class="ssss"><ul class="sorting-list">
             <li class="sort-item-price sorting-item"><a href="#" class="active-sorted">По цене</a></li>
             <li class="sort-item-type sorting-item"><a href="">По типу</a></li>
             <li class="sort-item-fucntional sorting-item"><a href="#">По функционалу</a></li>
@@ -147,7 +147,7 @@
             <li class="sorting-item-down">
               <p class="visually-hidden">Сортировать по убыванию</p>
             </li>
-          </ul>
+          </ul></div>
         </div>
         <h2 class="visually-hidden">Сортировка товаров</h2>
         <ul class="popular-goods-list sorted-list">
