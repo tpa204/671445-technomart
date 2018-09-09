@@ -89,11 +89,18 @@
             <h2 class="sorting-title">Фильтр:</h2>
             <h3><label for="Price-min" class="price-range-title filter-title ">Цена:</label></h3>
             <div class="price-range">
-              <input type="number" id="Price-min" name="price-range" value="0">
-              <span>--</span>
-              <label for="Price-max" class="visually-hidden">Максимальная цена</label>
-              <input type="number" id="Price-max" name="price-range" value="30000">
-            </div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div style="width:70%;" class="bar"></div>
+                </div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+              </div>
+              <div class="price-controls">
+                <label for="Price-min" class="visually-hidden">Минимальная цена</label>
+                <input type="number" id="Price-min" name="price-range" value="0">
+                <label for="Price-max" class="visually-hidden">>Максимальная цена</label><input type="number" id="Price-max" name="price-range" value="30000" </div>
+              </div>
           </fieldset>
           <hr>
           <fieldset class="sorting-attribute">
@@ -116,7 +123,7 @@
               DeWalt</label>
             </p>
             <p>
-              <label class="producers-checkbox"for="Hitachi"><input class="visually-hidden" type="checkbox" id="Hitachi" name="producers" value=""><span class="checkbox-indicator"></span>
+              <label class="producers-checkbox" for="Hitachi"><input class="visually-hidden" type="checkbox" id="Hitachi" name="producers" value=""><span class="checkbox-indicator"></span>
               Hitachi</label>
             </p>
           </fieldset>
@@ -271,21 +278,23 @@
         </ul>
       </div>
 
-    </div>
-    <section class="about-sorted-items ">
-<div class="container">
-      <h2>Пара слов о перфораторах</h2>
-      <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта
-        и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p></div>
-    </section>
-    <div class="modal-confirm">
-      <span class="close-modal"></span>
-      <p class="confirm-message">Товар добавлен в корзину!</p>
-      <div class="confirm-buttons-wrap">
-      <div class="confirm-buttons">
-        <a href="#" class="btn-red">Оформить заказ</a>
-        <a href="catalog.html" class="btn-close-confirm">Продолжить покупки</a></div></div>
-    </div>
+      </div>
+      <section class="about-sorted-items ">
+        <div class="container">
+          <h2>Пара слов о перфораторах</h2>
+          <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта
+            и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+        </div>
+      </section>
+      <div class="modal-confirm">
+        <span class="close-modal"></span>
+        <p class="confirm-message">Товар добавлен в корзину!</p>
+        <div class="confirm-buttons-wrap">
+          <div class="confirm-buttons">
+            <a href="#" class="btn-red">Оформить заказ</a>
+            <a href="catalog.html" class="btn-close-confirm">Продолжить покупки</a></div>
+        </div>
+      </div>
   </main>
   <footer class="main-page-footer inner-page-footer">
     <div class="container">
