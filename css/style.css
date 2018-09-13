@@ -79,7 +79,7 @@ a {
 
 .top-panel-search input[type='search'] {
   width: 220px;
-  margin-left: 40px;
+  margin-left: 48px;
   padding: 10px 0;
   color: #fff;
   border: none;
@@ -92,11 +92,11 @@ a {
 
 .search-icon {
   position: absolute;
-  top: 10px;
-  left: 0;
+  top: 9px;
+  left: 1px;
   width: 17px;
   height: 17px;
-  margin-left: 10px;
+  margin-left: 16px;
   fill: #6a7180;
 }
 
@@ -106,7 +106,7 @@ a {
   left: 10px;
   width: 14px;
   height: 16px;
-  margin-left: 10px;
+  margin-left: 0;
   fill: #6a7180;
 }
 
@@ -171,10 +171,12 @@ a {
 
 .top-panel-bookmarks {
   width: 160px;
+  margin-left: 9px;
 }
 
 .no-item-in-busket {
   width: 140px;
+padding-left: 11px;
 }
 
 .logo-header:hover {
@@ -224,7 +226,8 @@ a {
   font-size: 21px;
   line-height: 21px;
   color: #000;
-}
+  }
+
 
 .user-block-btn:hover {
   color: #ee3643;
@@ -237,9 +240,11 @@ a {
 
 .midpanel h1, .midpanel .like-h1-main {
   margin: 0;
+  margin-left:52px ;
+  margin-right: 35px;
   width: 235px;
   padding: 0;
-  text-align: justify;
+  text-align: left;
   vertical-align: top;
   font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 16px;
@@ -247,32 +252,36 @@ a {
   line-height: 23px;
   color: #ee3643;
 }
-
 .midpanel {
   font-family: 'Cuprum', 'Arial', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 45px;
-  padding-top: 45px;
+  margin-bottom: 38px;
+  padding-top: 49px;
 }
 
 .midpanel-contacts {
   width: 301px;
-  margin-left: 20px;
-}
+    }
 
 .user-block {
   width: 301px;
+  margin-top: 0;
   margin-left: auto;
-}
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-between;
+  }
 
 .midpanel .telnumber {
-  font-size: 17px;
-  line-height: 18px;
+  font-size: 21px;
+  line-height: 21px;
+  margin-right: 30px;
+
   position: relative;
-  padding: 10px 45px 11px 72px;
+  padding: 10px 30px 11px 69px;
   color: #ee3643;
   border: 3px solid #fff;
   background-color: transparent;
@@ -290,9 +299,11 @@ a {
 }
 
 .midpanel p {
+margin: 0;
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
+  margin-left: 10px;
 }
 
 .midpanel a {
@@ -313,19 +324,35 @@ a {
   background-color: #32425c;
   border-bottom: 5px solid #293449;
   -ms-flex-pack: distribute;
-  justify-content: space-between;
 }
+
 
 .navigation-item a {
   font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 17px;
   line-height: 17px;
   color: #fff;
-}
-
-.navigation-item a {
   display: block;
-  padding: 15px 20px;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 35px;
+  padding-bottom: 18px;
+  margin: 0 auto;
+}
+.navigation-list  .navigation-item:first-child a{
+  padding-left: 50px;
+  padding-right: 40px;
+}
+.navigation-list  .navigation-item:last-child a{
+  padding-left: 30px;
+  padding-right: 50px;
+}
+/* .navigation-item a:last-child {
+  padding-left: 5px;
+} */
+
+.navigation-item {
+
 }
 
 .navigation-item a:hover {
@@ -340,10 +367,11 @@ a {
 .header-backg {
   width: 100%;
   background-color: #f2f6f8;
+  padding-bottom: 17px;
 }
 
 .promo {
-  margin-bottom: 55px;
+  margin-bottom: 35px;
   display: flex;
 }
 
@@ -376,12 +404,16 @@ a {
 
 .btn-promo {
   position: absolute;
-  bottom: 22px;
-  left: 23px;
+  bottom: 19px;
+  left: 25px;
   width: 135px;
+  height: 40px;
+  text-align: center;
+  padding-top: 12px;
+  box-sizing: border-box;
   text-align: center;
   background-color: rgba(0, 0, 0, .1);
-  padding: 10px 15px;
+
   border-radius: 3px;
 }
 
@@ -397,35 +429,35 @@ a {
   background-color: #ffbf47;
   background-image: url('../img/icon-1.svg');
   background-repeat: no-repeat;
-  background-position: 85% 60%;
+  background-position: 82% 60%;
 }
 
 .promo-tag-delivery {
   background-color: #ffbf47;
   background-image: url('../img/icon-5.svg');
   background-repeat: no-repeat;
-  background-position: 90% 60%;
+  background-position: 85% 60%;
 }
 
 .promo-tag-blue {
   background-color: #3bbce3;
   background-image: url('../img/icon-2.svg');
   background-repeat: no-repeat;
-  background-position: 90% 60%;
+  background-position: 87% 60%;
 }
 
 .promo-tag-purple {
   background-color: #dc91d8;
   background-image: url('../img/icon-3.svg');
   background-repeat: no-repeat;
-  background-position: 90% 60%;
+  background-position: 85% 60%;
 }
 
 .promo-tag-green {
   background-color: #8ed78f;
   background-image: url('../img/icon-4.svg');
   background-repeat: no-repeat;
-  background-position: 85% 60%;
+  background-position: 82% 60%;
 }
 
 .slider-title {
@@ -487,7 +519,7 @@ a {
   line-height: 18px;
   display: block;
   margin: auto 0;
-  padding: 12px 50px;
+  padding: 10px 50px 10px;
   text-transform: uppercase;
   color: #fff;
   border-radius: 3px;
@@ -496,10 +528,10 @@ a {
 
 .slider1 .btn-red, .slider2 .btn-red {
   position: absolute;
-  bottom: 25px;
+  bottom: 20px;
   left: 25px;
   display: block;
-  padding: 12px 40px;
+  padding: 10px 50px;
 }
 
 .btn-red:hover {
@@ -611,11 +643,24 @@ a {
 }
 
 .h2-in-main {
+  margin: 0;
+  padding: 0;
   font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 30px;
   line-height: 30px;
+  margin-left: 27px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   color: #32425c;
+}
+.popular-goods-content .btn-red,
+.popular-producers .btn-red
+{
+  padding-left: 55px;
+  margin-right: 25px;
+  padding-right: 55px;
+
 }
 
 .popular-goods-items {
@@ -843,7 +888,7 @@ a {
   background-image: url('../img/service-credit-background.png');
   background-repeat: no-repeat;
   min-height: 300px;
-  background-position: :center right;
+  background-position:center right;
 }
 
 .credit a {
@@ -934,7 +979,7 @@ a {
 }
 
 .cargo-company span {
-  content: &mdash;
+  content: "&mdash";
   color: #ee3643;
   margin: 0 5px;
   font-size: 20px;
@@ -1356,18 +1401,19 @@ footer ul {
 }
 
 .user-block a {
+
   position: relative;
-  padding: 12px 25px 13px 25px;
+  padding: 10px 25px 11px 25px;
 }
 
 .user-block .enter {
-  margin-right: 7px;
-  padding-left: 50px;
+margin-left: 20px;
+padding-left: 48px;
 }
 
 .enter::before {
   position: absolute;
-  top: 15px;
+  top: 12px;
   left: 15px;
   width: 20px;
   height: 20px;
